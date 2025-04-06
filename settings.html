@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cover Letter Plugin Settings</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 16px;
+      width: 300px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 12px;
+    }
+    input, textarea {
+      width: 100%;
+      margin-top: 4px;
+      padding: 6px;
+      font-size: 14px;
+    }
+    button {
+      margin-top: 16px;
+      padding: 8px;
+      font-size: 14px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h2>Settings</h2>
+  <label for="projectUrl">Target Project URL</label>
+  <input id="projectUrl" type="text" placeholder="https://chatgpt.com/g/g-p-xxxx-projectname/project" />
+  <small style="color: gray;">
+  Default is <code>chatgpt.com</code>. This allows you to open a project folder. Copy the url from your project.
+
+  <label for="promptIntro">Prompt Intro</label>
+  <textarea id="promptIntro" rows="3" placeholder="Create for me Sky Chew a cover letter for this job:"></textarea>
+  <small style="color: gray;">
+    For better cover letter generation follow my <a href="https://skychew.com/building-a-chrome-extension-that-writes-your-cover-letters/" target="_blank">advance strategy here</a>
+  <button id="save">Save Settings</button>
+
+  <script src="settings.js"></script>
+</body>
+</html>
