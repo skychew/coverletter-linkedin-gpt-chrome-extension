@@ -37,17 +37,17 @@ Click the extension icon to open the settings popup:
 ---
 
 ## 📁 Project Structure
-
-linkedin_cover_letter_plugin/
-├── manifest.json
-├── background.js
-├── settings.html
-├── settings.js
-├── icon.png
-├── src/
-│   └── contentscript/
-│       └── content.js
-
+</br>
+linkedin_cover_letter_plugin/</br>
+├── manifest.json</br>
+├── background.js</br>
+├── settings.html</br>
+├── settings.js</br>
+├── icon.png</br>
+├── src/</br>
+│   └── contentscript/</br>
+│       └── content.js</br>
+</br>
 ---
 
 ## 📌 Permissions
