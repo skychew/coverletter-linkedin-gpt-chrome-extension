@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "LinkedIn Cover Letter Assistant",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Extract LinkedIn job post info and draft a cover letter in ChatGPT",
-  "permissions": ["scripting", "tabs", "activeTab","storage"],
+  "permissions": ["storage"],
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
